@@ -123,7 +123,7 @@ writer.writerow(first_row)  # Write headline
 index = 0
 for competitor in competitors:
     row = ["a", competitor["name"], "Russia", (competitor["wca_id"] if competitor["wca_id"] else ""), "1954-12-04",
-           "m"] + events_list[index] + ["ex" + str(index) + "@ex.com"]
+           "o"] + events_list[index] + ["ex" + str(index) + "@ex.com"]
     writer.writerow(row)
     index += 1
 
