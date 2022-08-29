@@ -16,7 +16,7 @@ Just launch RegistrationsCSVGenerator.exe from archieve on the Releases page :)
 ### On Linux
 For linux you should install Python 3. Example for Fedora Linux:
 ```bash
-$ dnf install python3
+$ sudo dnf install python3
 ```
 Next launch RegistrationsCSVGenerator.py:
 ```bash
