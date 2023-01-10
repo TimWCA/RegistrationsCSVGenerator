@@ -56,7 +56,9 @@ def get_competitors(registrations):
     competitors = list()
     for registration in registrations:
         competitor_json = urllib.request.urlopen(
-            "https://funcubing.org/api/competitors/" + registration["fc_id"]).read()
+            "https://funcubing.org/api/competitors/" + str(registration["id"])).read()
+        if competitor_json == b'[]':
+            continue
         competitor = json.loads(competitor_json.decode("utf-8"))
         competitors.append(competitor[0])
     return competitors
