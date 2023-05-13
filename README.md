@@ -11,7 +11,7 @@ _This program generates registrations.csv file (for WCA) from FunCubing. You can
 
 ## Launch
 ### On Windows
-Just launch RegistrationsCSVGenerator.exe from archieve on the Releases page :)
+Just download and launch RegistrationsCSVGenerator.exe from the Releases page :)
 
 ### On Linux
 For linux you should install Python 3. Example for Fedora Linux:
