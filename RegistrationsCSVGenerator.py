@@ -1,5 +1,5 @@
 #     Registrations CSV Generator
-#     Copyright (C) 2022  Timofei Vikhrianov
+#     Copyright (C) 2022 - 2023  Timofei Vikhrianov
 #
 #     This program is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU General Public License as published by
@@ -65,7 +65,7 @@ def get_competitors(registrations):
 
 
 # Print license notice
-print("Registrations CSV Generator  Copyright (C) 2022  Timofei Vikhrianov"
+print("Registrations CSV Generator  Copyright (C) 2022 - 2023  Timofei Vikhrianov"
       "\nThis program comes with ABSOLUTELY NO WARRANTY; for details see https://www.gnu.org/licenses/gpl-3.0.html"
       "\nThis is free software, and you are welcome to redistribute it under certain conditions; "
       "see https://www.gnu.org/licenses/gpl-3.0.html for details.\n")
